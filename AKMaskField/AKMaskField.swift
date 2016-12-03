@@ -45,7 +45,7 @@ import UIKit
  
  */
 
-open class AKMaskField: UITextField {
+public class AKMaskField: UITextField {
     
     //  MARK: - Configuring the Mask Field
     
