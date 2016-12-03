@@ -64,7 +64,8 @@ open class AKMaskField: UITextField {
      Default value of this property is `nil`.
      
      */
-    open var maskExpression2: String?
+    
+    public var maskExpression2: String?
     
     @IBInspectable open var maskExpression: String? {
         didSet {
