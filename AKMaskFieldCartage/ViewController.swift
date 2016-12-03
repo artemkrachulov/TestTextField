@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import AKMaskField
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var field: AKMaskField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        field.maskExpression = "{dd}"
     }
 
     override func didReceiveMemoryWarning() {
